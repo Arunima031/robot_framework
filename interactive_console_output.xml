@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230112 16:02:58.452" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\arunimagu\.vscode\extensions\robocorp.robotframework-lsp-1.7.3\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Regression">
+<msg timestamp="20230112 16:02:59.507" level="FAIL">No keyword with name 'Regression' found.</msg>
+<status status="FAIL" starttime="20230112 16:02:59.507" endtime="20230112 16:02:59.507"/>
+</kw>
+<kw name="Launch Browser">
+<status status="NOT RUN" starttime="20230112 16:02:59.509" endtime="20230112 16:02:59.509"/>
+</kw>
+<kw name="Valid User Login">
+<status status="NOT RUN" starttime="20230112 16:02:59.511" endtime="20230112 16:02:59.511"/>
+</kw>
+<kw name="Element Should Be Visible">
+<arg>xpath://h6[text()="Dashboard"]</arg>
+<status status="NOT RUN" starttime="20230112 16:02:59.512" endtime="20230112 16:02:59.512"/>
+</kw>
+<kw name="Click Element">
+<arg>css:[class*="userdropdown-icon"]</arg>
+<status status="NOT RUN" starttime="20230112 16:02:59.514" endtime="20230112 16:02:59.514"/>
+</kw>
+<kw name="Click Element">
+<arg>link=Logout</arg>
+<status status="NOT RUN" starttime="20230112 16:02:59.515" endtime="20230112 16:02:59.515"/>
+</kw>
+<kw name="Close Browser">
+<status status="NOT RUN" starttime="20230112 16:02:59.517" endtime="20230112 16:02:59.517"/>
+</kw>
+<status status="PASS" starttime="20230112 16:02:58.542" endtime="20230112 16:03:01.963"/>
+</kw>
+<status status="PASS" starttime="20230112 16:02:58.542" endtime="20230112 16:03:01.964"/>
+</test>
+<status status="PASS" starttime="20230112 16:02:58.459" endtime="20230112 16:03:01.965"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
